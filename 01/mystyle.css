@@ -1,0 +1,140 @@
+.head {
+    display: grid;
+    background-color:#FAF0E6;
+    grid-column-gap: 160px;
+    grid-template-rows:  9fr 1fr;
+    grid-template-columns:  1fr 1fr 1fr;
+}
+
+.head-item{
+    margin: 40px;
+}
+
+.head-text{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    grid-row-gap: 50px;
+    font-size: 60px;
+    text-align: center;
+    color:#BC8F8F;
+    text-shadow: 3px 2px 1px;
+}
+
+.father {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 300px 400px 1fr   ;
+    grid-gap: 20px;
+    padding: 20px;
+    margin:300px 100px 20px 100px;
+
+}
+
+.personal_imformation{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: left;
+    padding: 10px 10px;
+    font-size: 20px;
+}
+
+.course{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-size: 20px;
+
+
+
+}
+
+ p{
+    font-size: 15px;
+}
+
+.sign{
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: left;
+    padding: 20px 10px;
+    font-size: 20px;
+}
+
+.course > img{
+    margin-left: 70px;
+}
+
+.game{
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    text-align: left;
+    padding: 20px 10px;
+    grid-gap: 10px;
+
+    display: grid;
+    grid-template-rows:  1fr 1fr 1fr;
+    grid-template-columns:  1fr 1fr 1fr;
+
+}
+
+.game > .g {
+    font-size: 15px;
+}
+
+.biaoti-1{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    font-size: 20px;
+}
+
+.movie{
+    grid-column-start: 1;
+    grid-column-end: 7;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    text-align: left;
+    padding: 20px 10px;
+    grid-gap: 10px;
+    font-size: 20px;
+
+    display: grid;
+    grid-template-rows:  50px 1fr 1fr 1fr 1fr;
+    grid-template-columns:  1fr 1fr 1fr;
+}
+
+.movie >.m{
+    margin-left: 20px;
+    margin-top: 20px;
+    font-size: 15px;
+
+}
+
+
+.biaoti-2{
+    grid-column-start: 1;
+    grid-column-end: 4;
+    font-size: 20px;
+}
+
+
+.father > div {
+    padding: 20px 20px;
+    border: 2px #D8BFD8 outset;
+
+
+}
+
+body{
+    background-color:#FAF0E6;
+}
