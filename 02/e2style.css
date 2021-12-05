@@ -13,6 +13,7 @@
     grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 3;
+    font-size: 20px;
     display: grid;
     grid-template-columns:  1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-rows:  1fr 1fr 1fr 1fr 1fr 1fr;
@@ -22,15 +23,34 @@
     text-align: center;
     grid-column-start: 2;
     grid-column-end: 3;
+
+    display: grid;
+    grid-template-rows:  1fr 1fr 1fr ;
+    font-size: 20px;
+
 }
+
+.introdaction>div{
+
+    border: 2px #5A5AAD outset;
+    text-align: center;
+
+}
+#np{
+    background-color:#FAF0E6;
+}
+#mp{
+    background-color:red;
+}
+
 .choice{
     grid-column-start: 1;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 2;
+    font-size: 20px;
     border: 2px #5A5AAD outset;
     display: grid;
-    background-color:#FAF0E6;
     text-align: center;
     grid-gap: 10px;
     grid-template-columns:  1fr 1fr;
