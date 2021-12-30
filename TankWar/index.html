@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <script src="Tank.js" defer></script>
+    <script src="size_meet.js" defer></script>
+    <script src="control.js" defer></script>
+    <script src="enemy.js" defer></script>
+    <script src="button.js" defer></script>
+    <title>Tank War</title>
+</head>
+<body>
+ <div class = "father">
+     <canvas id = "GameWindows" width = "1000" height = "700"></canvas>
+     <div class = "little">
+         <div id = "score_title">分数统计</div>
+         <div id = "score">0</div>
+         <button id = "game_start">开始移动</button>
+         <button id = "unstop">敌人生成</button>
+         <button id = "game_end">游戏结束</button>
+  </div>
+ </div>
+ <div id = "hard_easy">
+     <button id = "easy">易</button>
+     <button id = "mid">中</button>
+     <button id = "hard">难</button>
+ </div>
+</body>
+</html>

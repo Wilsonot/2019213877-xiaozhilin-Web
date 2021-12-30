@@ -1,0 +1,57 @@
+.father{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    display: grid;
+    width: 1200px;
+    grid-gap: 30px;
+    grid-template-columns:  3fr 1fr;
+}
+
+#GameWindows {
+    border:1px solid #d3d3d3;
+    background: url("img/d.jpg");
+    margin-right:10px
+}
+
+.little{
+    width: 180px;
+    height: 500px;
+    border: 2px #5A5AAD outset;
+    background-color: #f1f1f1;
+    margin-right:45px;
+    display: grid;
+    grid-template-rows:  1fr 1fr 1fr  1fr 1fr 1fr;
+    font-size: 20px;
+}
+#hard_easy{
+    margin-top:15px;
+    margin-left:30px;
+    width: 100px;
+    height: 185px;
+    border: 2px #5A5AAD outset;
+    background-color: #f1f1f1;
+    display: grid;
+    grid-template-rows:  1fr 1fr 1fr;
+}
+.little>div{
+    text-align: center;
+    line-height: 100px;
+    text-align: center;
+    font-size: 29px;
+}
+.little>button{
+    height: 100px;
+    font-size: 29px;
+}
+#hard_easy>button{
+    text-align: center;
+    line-height: 40px;
+    text-align: center;
+    font-size: 30px;
+}
